@@ -8,27 +8,51 @@
 
 }
 
-body{
-    max-width:1290px ;
+html {
+    background-color: #bbd4d4;
+}
+
+body {
+    max-width: 1290px;
     margin-left: auto;
     margin-right: auto;
 }
+
 /* HEADER */
 
-header {
-    background-color: rgb(10, 14, 70) !important;
+.navbar {
+    background-image: url('../assets/Fondo-NAV1290.jpg');
+    background-size: contain;
+    background-position: center;
+    height: auto;
+    /* Altura de ejemplo */
+    color: white;
+    /* Color del texto para asegurar que sea legible */
+    text-align: center;
+    /* Alinear el contenido al centro */
 
 }
 
-.navbar {
+/* header {
+    background-image: url('../assets/Fondo-NAV.jpg') !important;
+    background-size: cover;
+    background-position: center;
+    height: 200px; 
+    color: white; 
+    text-align: center; 
+    padding-top: 50px;
+} */
+
+
+/* .navbar {
     max-width: 1290px;
     margin: auto;
     background-color: rgb(10, 14, 70) !important;
 
-}
+} */
 
 .nav-item {
-    color: rgb(204, 0, 0) !important;
+    /* color: rgb(204, 0, 0) !important; */
     padding: 2px;
 }
 
@@ -62,33 +86,38 @@ article {
 
 .subNav {
     margin: 1em;
+}
 
-
+.navsub {
+    background-image: url("../assets/nav\ amdera.jpg");
+    background-size: contain;
+    background-position: center;
 }
 
 /* MAIN */
 
-.galeria{
-    margin-top: 1.5rem;
+.galeria {
+    padding-top: 1.5rem;
 }
 
-.product{
+.product {
     /* border: solid black 1px; */
-    margin:5px;
-    border-radius: 10px;
+    margin: 5px;
+    border-radius: 50px;
 }
 
-.list-catg a{
+.list-catg a {
     color: rgb(10, 14, 70);
     height: 1.5rem !important;
 }
+
 
 
 /* FOOTER */
 
 .footer1 {
     display: flex;
-    font-size: 25px;
+    font-size: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     justify-content: space-around;
     border-top: 1px solid black;
@@ -133,19 +162,40 @@ article {
     padding-left: 15px;
 }
 
+
+/* PSEUDO CLASES */
+
+.hover:hover {
+    background-color: rgb(65, 61, 61);
+    border-radius: 30px;
+}
+
+.nav-item:hover {
+    font-size: 20px; ;
+}
+
+
+
+
+
 /* Media queries */
 
 @media (max-width: 576px) {
     #carouselExampleIndicators .carousel-inner img {
         height: 200px;
-        /* Establecer la altura deseada */
         object-fit: cover;
         /* Para mantener la relación de aspecto */
     }
 }
 
-@media (max-width:576px){
-    .list-catg{
+@media (max-width:576px) {
+    .list-catg {
         display: none;
+    }
+}
+
+@media (max-width:576px) {
+    .navbar {
+        background-color: #161515;
     }
 }
