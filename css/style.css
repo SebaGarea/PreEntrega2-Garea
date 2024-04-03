@@ -100,6 +100,11 @@ article {
     text-align: center;
 }
 
+.carousel-inner .carousel-item img {
+    border-radius: 20px; /* Redondeo bordes carrousel
+     */
+}
+
 
 /* MAIN */
 
