@@ -9,13 +9,14 @@
 }
 
 html {
-    background-color: #bbd4d4;
+    background-color:black;
 }
 
 body {
     max-width: 1290px;
     margin-left: auto;
     margin-right: auto;
+    background-color: #cbdbdb;
 }
 
 /* HEADER */
@@ -94,10 +95,19 @@ article {
     background-position: center;
 }
 
+.dropdown-menu-custom {
+    width: 300px; /* Ancho del menú desplegable */
+    text-align: center;
+}
+
+
 /* MAIN */
 
 .galeria {
+    margin-top: 15px;
+    border-radius: 25px;
     padding-top: 1.5rem;
+    background-color:  #cbdbdb;
 }
 
 .product {
@@ -111,7 +121,11 @@ article {
     height: 1.5rem !important;
 }
 
-
+.ofert-botom{
+    border-bottom: 1px dotted gray;
+    border-top: 1px dotted gray;
+    margin-top: 15px;
+}
 
 /* FOOTER */
 
