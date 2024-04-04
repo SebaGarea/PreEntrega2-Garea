@@ -217,7 +217,10 @@ label {
     padding-left: 15px;
 }
 
-
+/*PAG LOGIN*/
+.card{
+    border-radius: 25px !important;
+}
 /* PSEUDO CLASES */
 
 .hover:hover {

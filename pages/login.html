@@ -46,11 +46,11 @@
 
                     <ul class="navbar-nav align-self-start">
                         <li class="nav-item p-2 ">
-                            <a class="nav-link " href="../pages/register.html"><i
+                            <a class="nav-link " href="./register.html"><i
                                     class="fa-solid fa-user-plus"></i></i></a>
                         </li>
                         <li class="nav-item p-2">
-                            <a class="nav-link " href="../pages/login.html">Iniciar Sesion</a>
+                            <a class="nav-link " href="./login.html">Iniciar Sesion</a>
                         </li>
                         <li class="nav-item p-2">
                             <a class="nav-link" href="javascript:void(0)"><i class="fa-solid fa-cart-shopping"></i></a>
@@ -82,7 +82,7 @@
                     <li><a class="dropdown-item" href="#">Vinotecas</a></li>
                 </ul>
 
-                <a href="./pages/contacto.html"
+                <a href="./contacto.html"
                     class="hover btn text-light col-sm-4 col-xs-12 justify-content-center dropdown-button">
                     Contacto
                 </a>
@@ -92,52 +92,84 @@
     </header>
 
     <main>
-
-
-        <form action="#" method="post">
-
-            <h2>Iniciar Sesion</h2>
-
-            <label for="usuario">Usuario</label>
-            <input type="text" id="usuario" name="usuario" required>
-
-            <label for="contraseña">Contraseña</label>
-            <input type="password" id="contraseña" name="contraseña" required>
-
-            <input type="submit" type="number" value="Iniciar Sesión">
-
-        </form>
-
-
-    </main>
-
-    <footer>
-        <div>
-            <div>
-                <div>
-                    <h4>Información</h4>
-                    <ul>
-                        <li><a href="#">Acerca de nosotros</a></li>
-                        <li><a href="#">Términos y condiciones</a></li>
-                        <li><a href="#">Política de privacidad</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Atención al Cliente</h4>
-                    <ul>
-                        <li><a href="./pages/contacto.html">Contacto</a></li>
-                        <li><a href="#">Preguntas frecuentes</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Síguenos</h4>
-                    <ul>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#">Instagram</a></li>
-                    </ul>
+        <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title text-center mb-4">Iniciar Sesión</h2>
+                        <form action="#" method="post">
+                            <div class="mb-3">
+                                <label for="usuario" class="form-label">Usuario</label>
+                                <input type="text" class="form-control" id="usuario" name="usuario" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="contraseña" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" id="contraseña" name="contraseña" required>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-info btn-block rounded-pill">Iniciar Sesión</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
+        </div>
+        </div>
+        <!-- <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title text-center mb-4">Iniciar Sesión</h2>
+                            <form action="#" method="post">
+                                <div class="mb-3">
+                                    <label for="usuario" class="form-label">Usuario</label>
+                                    <input type="text" class="form-control" id="usuario" name="usuario" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="contraseña" class="form-label">Contraseña</label>
+                                    <input type="password" class="form-control" id="contraseña" name="contraseña"
+                                        required>
+                                </div>
+                                <button type="submit" class="btn btn-info btn-block rounded-pill btn-block">Iniciar Sesión</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </main>
+    <footer>
+        <div class="footer1">
+
+            <div class="footer2">
+                <h4>Información</h4>
+                <ul>
+                    <li><a href="#">Acerca de nosotros</a></li>
+                    <li><a href="#">Términos y condiciones</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                </ul>
+            </div>
+
+            <div class="footer2">
+                <h4>Atención al Cliente</h4>
+                <ul>
+                    <li><a href="./contacto.html">Contacto</a><i class="fas fa-phone"></i></li>
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                </ul>
+            </div>
+
+            <div class="footer2">
+                <h4>Síguenos</h4>
+                <ul>
+                    <li><a href="#">Facebook</a><i class="fab fa-facebook"></i></li>
+                    <li><a href="#">Twitter</a><i class="fab fa-twitter"></i></li>
+                    <li><a href="https://www.instagram.com/el.portal.herreria">Instagram</a><i class="fab fa-instagram" style="color: #250f67;"></i></li>
+                </ul>
+            </div>
+
+        </div>
     </footer>
     <!-- INICIO BOOTSTRAP 5.1 -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
