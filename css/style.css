@@ -119,9 +119,20 @@ article {
     /* border: solid black 1px; */
     margin: 5px;
     border-radius: 50px;
+    max-height: 250px;
+    
+}
+.list-catg h6{
+    padding: 15px;
 }
 
-.list-catg a {
+.list-catg{
+    background-color: #dae3e7;
+    border-radius: 40px;
+    padding: 15px !important;
+}
+
+.list-catg a{
     color: rgb(10, 14, 70);
     height: 1.5rem !important;
 }
@@ -137,6 +148,7 @@ article {
 .redes-contact ul li{
     margin-top: 25px;
     padding: 20px;
+
 }
 
 .form-contacto{
@@ -217,6 +229,9 @@ label {
     font-size: 20px; ;
 }
 
+.list-catg a:hover{
+    font-weight: 500;
+}
 
 
 
