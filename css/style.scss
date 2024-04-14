@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+/* font-family: "Abel", sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    background-color:black;
+}
+
+body {
+    max-width: 1290px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #cbdbdb;
+}
+
+/* HEADER */
+
+.navbar {
+    background-image: url('../assets/Fondo-NAV1290.jpg');
+    background-size: contain;
+    background-position: center;
+    height: auto;
+    /* Altura de ejemplo */
+    color: white;
+    /* Color del texto para asegurar que sea legible */
+    text-align: center;
+    /* Alinear el contenido al centro */
+
+}
+
+/* header {
+    background-image: url('../assets/Fondo-NAV.jpg') !important;
+    background-size: cover;
+    background-position: center;
+    height: 200px; 
+    color: white; 
+    text-align: center; 
+    padding-top: 50px;
+} */
+
+
+/* .navbar {
+    max-width: 1290px;
+    margin: auto;
+    background-color: rgb(10, 14, 70) !important;
+
+} */
+
+.nav-item {
+    /* color: rgb(204, 0, 0) !important; */
+    padding: 2px;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255) !important;
+}
+
+.navbar-brand img {
+    max-width: 70px;
+    height: auto;
+
+}
+
+.img-shadow {
+    box-shadow: 0 4px 6px rgba(206, 190, 190, 0.582), 0 1px 3px rgba(187, 177, 177, 0.08);
+}
+
+.form-control::placeholder {
+    color: #999;
+    font-style: italic;
+    text-align: center;
+}
+
+article {
+    height: 200px;
+}
+
+.logoPrincipal {
+    height: 300px;
+}
+
+.subNav {
+    margin: 1em;
+}
+
+.navsub {
+    background-image: url("../assets/nav\ amdera.jpg");
+    background-size: contain;
+    background-position: center;
+}
+
+.dropdown-menu-custom {
+    width: 300px; /* Ancho del menú desplegable */
+    text-align: center;
+}
+
+.carousel-inner .carousel-item img {
+    border-radius: 20px; /* Redondeo bordes carrousel
+     */
+}
+
+
+/* MAIN */
+
+.galeria {
+    margin-top: 15px;
+    border-radius: 25px;
+    padding-top: 1.5rem;
+    background-color:  #cbdbdb;
+}
+
+.product {
+    /* border: solid black 1px; */
+    margin: 5px;
+    border-radius: 50px;
+    max-height: 250px;
+    
+}
+.list-catg h6{
+    padding: 15px;
+}
+
+.list-catg{
+    background-color: #dae3e7;
+    border-radius: 40px;
+    padding: 15px !important;
+}
+
+.list-catg a{
+    color: rgb(10, 14, 70);
+    height: 1.5rem !important;
+}
+
+.ofert-botom{
+    border-bottom: 1px dotted gray;
+    border-top: 1px dotted gray;
+    margin-top: 15px;
+}
+
+
+/* Estilos PAG CONTACTO */
+.redes-contact ul li{
+    margin-top: 25px;
+    padding: 20px;
+
+}
+
+.form-contacto{
+    margin-bottom: 20px;
+}
+
+.form-contacto form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 1rem; /* Espacio entre cada campo de formulario */
+}
+
+label {
+    margin-bottom: 0.5rem; /* Espacio entre la etiqueta y el campo de entrada */
+}
+
+/* FOOTER */
+
+.footer1 {
+    display: flex;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: space-around;
+    border-top: 1px solid black;
+    padding-top: 15px;
+}
+
+.footer2 h4 {
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.footer2 a {
+    text-decoration: none;
+    color: #161515;
+}
+
+.footer2 li {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.fa-facebook {
+    color: blue;
+    font-size: 25px;
+    padding-left: 15px;
+
+}
+
+.fa-twitter {
+    color: #00acee;
+    font-size: 25px;
+    padding-left: 15px;
+
+}
+
+.fa-instagram {
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+.fa-phone {
+    padding-left: 15px;
+}
+
+/*PAG LOGIN*/
+.card{
+    border-radius: 25px !important;
+}
+/* PSEUDO CLASES */
+
+.hover:hover {
+    background-color: rgb(65, 61, 61);
+    border-radius: 30px;
+}
+
+.nav-item:hover {
+    font-size: 18px; ;
+}
+
+.list-catg a:hover{
+    font-weight: 500;
+}
+
+
+
+
+/* Media queries */
+
+@media (max-width: 576px) {
+    #carouselExampleIndicators .carousel-inner img {
+        height: 200px;
+        object-fit: cover;
+        /* Para mantener la relación de aspecto */
+    }
+}
+
+@media (max-width:576px) {
+    .list-catg {
+        display: none;
+    }
+}
+
+@media (max-width:576px) {
+    .navbar {
+        background-color: #161515;
+    }
+}
