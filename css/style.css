@@ -190,7 +190,8 @@ label {
 
 /*PAG LOGIN*/
 .card {
-  border-radius: 25px !important;
+  border-radius: 30px !important;
+  margin-bottom: 40px;
 }
 
 /* PSEUDO CLASES */
