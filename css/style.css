@@ -144,6 +144,7 @@ label {
 
 /* FOOTER */
 footer {
+  font-size: 20px;
   margin-top: 25px;
   background-image: url(../assets/img-footer.jpg);
   background-color: 255, 255, 255, 0.5;
@@ -167,8 +168,7 @@ footer {
   text-decoration: none;
   color: #161515;
 }
-
-.footer2 li {
+.footer2 a li {
   display: flex;
   padding-bottom: 15px;
 }
