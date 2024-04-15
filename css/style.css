@@ -23,30 +23,11 @@ body {
   background-size: contain;
   background-position: center;
   height: auto;
-  /* Altura de ejemplo */
   color: white;
-  /* Color del texto para asegurar que sea legible */
   text-align: center;
-  /* Alinear el contenido al centro */
 }
 
-/* header {
-    background-image: url('../assets/Fondo-NAV.jpg') !important;
-    background-size: cover;
-    background-position: center;
-    height: 200px; 
-    color: white; 
-    text-align: center; 
-    padding-top: 50px;
-} */
-/* .navbar {
-    max-width: 1290px;
-    margin: auto;
-    background-color: rgb(10, 14, 70) !important;
-
-} */
 .nav-item {
-  /* color: rgb(204, 0, 0) !important; */
   padding: 2px;
 }
 
@@ -75,10 +56,6 @@ body {
   text-align: center;
 }
 
-article {
-  height: 200px;
-}
-
 .logoPrincipal {
   height: 300px;
 }
@@ -94,13 +71,13 @@ article {
 }
 
 .dropdown-menu-custom {
-  width: 300px; /* Ancho del menú desplegable */
+  width: 300px;
+  /* Ancho del menú desplegable */
   text-align: center;
 }
 
 .carousel-inner .carousel-item img {
-  border-radius: 20px; /* Redondeo bordes carrousel
-*/
+  border-radius: 20px;
 }
 
 /* MAIN */
@@ -155,11 +132,13 @@ article {
 }
 
 .form-group {
-  margin-bottom: 1rem; /* Espacio entre cada campo de formulario */
+  margin-bottom: 1rem;
+  /* Espacio entre cada campo de formulario */
 }
 
 label {
-  margin-bottom: 0.5rem; /* Espacio entre la etiqueta y el campo de entrada */
+  margin-bottom: 0.5rem;
+  /* Espacio entre la etiqueta y el campo de entrada */
 }
 
 /* FOOTER */
@@ -225,6 +204,10 @@ label {
 
 .list-catg a:hover {
   font-weight: 500;
+}
+
+.form-label {
+  text-align: center !important;
 }
 
 /* Media queries */

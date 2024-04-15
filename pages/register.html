@@ -93,30 +93,49 @@
     </header>
 
     <main>
-        <h1>
-            <form action="#" method="post">
 
-                <h2>Crear cuenta</h2>
+        <main>
+            <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title text-center mb-4">Registrarse</h2>
+                            <form action="#" method="post">
+                                <div class="mb-3">
+                                    <label for="nombre" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="nombre" name="nombre" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="apellido" class="form-label">Apellido</label>
+                                    <input type="text" class="form-control" id="apellido" name="apellido" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="fechaDeNacimiento" class="form-label">Fecha de Nacimiento</label>
+                                    <input type="date" class="form-control" id="fechaDeNacimiento" name="fechaDeNacimiento" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="dni" class="form-label">Dni</label>
+                                    <input type="number" class="form-control" id="dni" name="dni" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="usuario" class="form-label">Usuario</label>
+                                    <input type="text" class="form-control" id="usuario" name="usuario" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="contraseña" class="form-label justify-content-center">Contraseña</label>
+                                    <input type="password" class="form-control" id="contraseña" name="contraseña" required>
+                                </div>
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-info btn-block rounded-pill">Registrarse</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
 
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre" required>
-                <br>
-                <label for="apellido">Apellido</label>
-                <input type="text" id="apellido" name="apellido" required>
-                <br>
-                <label for="Dni">Dni</label>
-                <input type="number" id="dni" name="dni" required>
-                <br>
-                <label for="email">Email</label>
-                <input type="text" id="email" name="email" required>
-                <br>
-                <label for="contraseña">Contraseña</label>
-                <input type="password" id="contraseña" name="contraseña" required>
-                <br>
-                <input type="submit" type="number" value="Registrarse">
-
-            </form>
-        </h1>
     </main>
 
     <footer>
@@ -144,7 +163,8 @@
                 <ul>
                     <li><a href="#">Facebook</a><i class="fab fa-facebook"></i></li>
                     <li><a href="#">Twitter</a><i class="fab fa-twitter"></i></li>
-                    <li><a href="https://www.instagram.com/el.portal.herreria">Instagram</a><i class="fab fa-instagram" style="color: #250f67;"></i></li>
+                    <li><a href="https://www.instagram.com/el.portal.herreria">Instagram</a><i class="fab fa-instagram"
+                            style="color: #250f67;"></i></li>
                 </ul>
             </div>
 
