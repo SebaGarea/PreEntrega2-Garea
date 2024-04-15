@@ -89,25 +89,27 @@ body {
 }
 
 .product {
-  /* border: solid black 1px; */
   margin: 5px;
   border-radius: 50px;
   max-height: 250px;
 }
 
-.list-catg h6 {
-  padding: 15px;
-}
-
 .list-catg {
   background-color: #dae3e7;
   border-radius: 40px;
-  padding: 15px !important;
+  height: -moz-max-content;
+  height: max-content;
 }
-
 .list-catg a {
   color: rgb(10, 14, 70);
   height: 1.5rem !important;
+  padding: 20px;
+}
+.list-catg h6 {
+  padding: 10px;
+  align-self: center;
+  -webkit-text-decoration: underline dotted 0.2px;
+          text-decoration: underline dotted 0.2px;
 }
 
 .ofert-botom {
@@ -125,7 +127,6 @@ body {
 .form-contacto {
   margin-bottom: 20px;
 }
-
 .form-contacto form {
   display: flex;
   flex-direction: column;
@@ -204,10 +205,6 @@ label {
 
 .list-catg a:hover {
   font-weight: 500;
-}
-
-.form-label {
-  text-align: center !important;
 }
 
 /* Media queries */

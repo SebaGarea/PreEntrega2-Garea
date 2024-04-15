@@ -2,235 +2,232 @@
 
 /* font-family: "Abel", sans-serif; */
 
+$color-bck-body: #cbdbdb;
+
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 html {
-  background-color: black;
+    background-color: black;
 }
 
 body {
-  max-width: 1290px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #cbdbdb;
+    max-width: 1290px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: $color-bck-body;
 }
 
 /* HEADER */
 
 .navbar {
-  background-image: url("../assets/Fondo-NAV1290.jpg");
-  background-size: contain;
-  background-position: center;
-  height: auto;
-  color: white;
-  text-align: center;
+    background-image: url("../assets/Fondo-NAV1290.jpg");
+    background-size: contain;
+    background-position: center;
+    height: auto;
+    color: white;
+    text-align: center;
 }
 
 .nav-item {
-  padding: 2px;
+    padding: 2px;
 }
 
 .nav-link {
-  color: rgb(255, 255, 255) !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 .navbar-brand img {
-  max-width: 70px;
-  height: auto;
+    max-width: 70px;
+    height: auto;
 }
 
 .img-shadow {
-  box-shadow: 0 4px 6px rgba(206, 190, 190, 0.582),
-    0 1px 3px rgba(187, 177, 177, 0.08);
+    box-shadow: 0 4px 6px rgba(206, 190, 190, 0.582),
+        0 1px 3px rgba(187, 177, 177, 0.08);
 }
 
 .form-control::placeholder {
-  color: #999;
-  font-style: italic;
-  text-align: center;
+    color: #999;
+    font-style: italic;
+    text-align: center;
 }
 
 .logoPrincipal {
-  height: 300px;
+    height: 300px;
 }
 
 .subNav {
-  margin: 1em;
+    margin: 1em;
 }
 
 .navsub {
-  background-image: url("../assets/nav\ amdera.jpg");
-  background-size: contain;
-  background-position: center;
+    background-image: url("../assets/nav\ amdera.jpg");
+    background-size: contain;
+    background-position: center;
 }
 
 .dropdown-menu-custom {
-  width: 300px;
-  /* Ancho del menú desplegable */
-  text-align: center;
+    width: 300px;
+    /* Ancho del menú desplegable */
+    text-align: center;
 }
 
 .carousel-inner .carousel-item img {
-  border-radius: 20px;
+    border-radius: 20px;
 }
 
 /* MAIN */
 
 .galeria {
-  margin-top: 15px;
-  border-radius: 25px;
-  padding-top: 1.5rem;
-  background-color: #cbdbdb;
+    margin-top: 15px;
+    border-radius: 25px;
+    padding-top: 1.5rem;
+    background-color: $color-bck-body;
 }
 
-.product {
-  /* border: solid black 1px; */
-  margin: 5px;
-  border-radius: 50px;
-  max-height: 250px;
+.product{
+    margin: 5px;
+    border-radius: 50px;
+    max-height: 250px;
 }
 
-.list-catg h6 {
-  padding: 15px;
+.list-catg{
+    background-color: #dae3e7;
+    border-radius: 40px;
+    height: max-content;
+
+    a{
+        color: rgb(10, 14, 70);
+        height: 1.5rem !important;
+        padding: 20px;
+    }
+
+    h6 {
+        padding: 10px;
+        align-self: center;
+        text-decoration: underline dotted 0.2px;
+    }
 }
 
-.list-catg {
-  background-color: #dae3e7;
-  border-radius: 40px;
-  padding: 15px !important;
-}
-
-.list-catg a {
-  color: rgb(10, 14, 70);
-  height: 1.5rem !important;
-}
-
-.ofert-botom {
-  border-bottom: 1px dotted gray;
-  border-top: 1px dotted gray;
-  margin-top: 15px;
+.ofert-botom{
+    border-bottom: 1px dotted gray;
+    border-top: 1px dotted gray;
+    margin-top: 15px;
 }
 
 /* Estilos PAG CONTACTO */
-.redes-contact ul li {
-  margin-top: 25px;
-  padding: 20px;
+
+.redes-contact ul li{
+    margin-top: 25px;
+    padding: 20px;
 }
 
-.form-contacto {
-  margin-bottom: 20px;
-}
-
-.form-contacto form {
-  display: flex;
-  flex-direction: column;
+.form-contacto{
+    margin-bottom: 20px;
+    form{
+        display: flex;
+        flex-direction:column ;
+    }
 }
 
 .form-group {
-  margin-bottom: 1rem;
-  /* Espacio entre cada campo de formulario */
+    margin-bottom: 1rem;
+    /* Espacio entre cada campo de formulario */
 }
 
 label {
-  margin-bottom: 0.5rem;
-  /* Espacio entre la etiqueta y el campo de entrada */
+    margin-bottom: 0.5rem;
+    /* Espacio entre la etiqueta y el campo de entrada */
 }
 
 /* FOOTER */
 
 .footer1 {
-  display: flex;
-  font-size: 15px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  justify-content: space-around;
-  border-top: 1px solid black;
-  padding-top: 15px;
+    display: flex;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    justify-content: space-around;
+    border-top: 1px solid black;
+    padding-top: 15px;
 }
 
 .footer2 h4 {
-  text-decoration: underline;
-  margin-bottom: 15px;
+    text-decoration: underline;
+    margin-bottom: 15px;
 }
 
 .footer2 a {
-  text-decoration: none;
-  color: #161515;
+    text-decoration: none;
+    color: #161515;
 }
 
 .footer2 li {
-  display: flex;
-  padding-bottom: 15px;
+    display: flex;
+    padding-bottom: 15px;
 }
 
 .fa-facebook {
-  color: blue;
-  font-size: 25px;
-  padding-left: 15px;
+    color: blue;
+    font-size: 25px;
+    padding-left: 15px;
 }
 
 .fa-twitter {
-  color: #00acee;
-  font-size: 25px;
-  padding-left: 15px;
+    color: #00acee;
+    font-size: 25px;
+    padding-left: 15px;
 }
 
 .fa-instagram {
-  font-size: 25px;
-  padding-left: 15px;
+    font-size: 25px;
+    padding-left: 15px;
 }
 
 .fa-phone {
-  padding-left: 15px;
+    padding-left: 15px;
 }
 
 /*PAG LOGIN*/
 .card {
-  border-radius: 25px !important;
+    border-radius: 25px !important;
 }
 
 /* PSEUDO CLASES */
 
 .hover:hover {
-  background-color: rgb(65, 61, 61);
-  border-radius: 30px;
+    background-color: rgb(65, 61, 61);
+    border-radius: 30px;
 }
 
 .nav-item:hover {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 .list-catg a:hover {
-  font-weight: 500;
+    font-weight: 500;
 }
-
-// Pag Register
-
-.form-label{
-    text-align: center !important;
-}
-
 
 /* Media queries */
 
 @media (max-width: 576px) {
-  #carouselExampleIndicators .carousel-inner img {
-    height: 200px;
-    object-fit: cover;
-    /* Para mantener la relación de aspecto */
-  }
+    #carouselExampleIndicators .carousel-inner img {
+        height: 200px;
+        object-fit: cover;
+        /* Para mantener la relación de aspecto */
+    }
 }
 
 @media (max-width: 576px) {
-  .list-catg {
-    display: none;
-  }
+    .list-catg {
+        display: none;
+    }
 }
 
 @media (max-width: 576px) {
-  .navbar {
-    background-color: #161515;
-  }
+    .navbar {
+        background-color: #161515;
+    }
 }
