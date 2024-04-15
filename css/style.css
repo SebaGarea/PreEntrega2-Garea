@@ -143,12 +143,18 @@ label {
 }
 
 /* FOOTER */
+footer {
+  margin-top: 25px;
+  background-image: url(../assets/img-footer.jpg);
+  background-color: 255, 255, 255, 0.5;
+}
+
 .footer1 {
   display: flex;
   font-size: 15px;
+  font-weight: bold;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   justify-content: space-around;
-  border-top: 1px solid black;
   padding-top: 15px;
 }
 
