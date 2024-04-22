@@ -171,12 +171,6 @@ footer {
   padding-left: 15px;
 }
 
-/*PAG LOGIN*/
-.card {
-  border-radius: 30px !important;
-  margin-bottom: 40px;
-}
-
 /* PSEUDO CLASES */
 .hover:hover {
   background-color: rgb(65, 61, 61);
@@ -188,7 +182,7 @@ footer {
 }
 
 .list-catg a:hover {
-  font-weight: 500;
+  font-weight: 900;
 }
 
 /* Media queries */
@@ -231,4 +225,9 @@ footer {
 label {
   margin-bottom: 0.5rem;
   /* Espacio entre la etiqueta y el campo de entrada */
+}
+
+.card {
+  border-radius: 30px !important;
+  margin-bottom: 40px;
 }/*# sourceMappingURL=style.css.map */

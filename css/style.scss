@@ -133,7 +133,7 @@ body {
 /* FOOTER */
 
 footer {
-    
+
     margin-top: 25px;
     background-image: url(../assets/img-footer.jpg);
     background-color: (255, 255, 255, 0.5);
@@ -156,7 +156,7 @@ footer {
     color: #161515;
     font-size: 20px;
     font-weight: bold;
-    
+
     li {
         display: flex;
         padding-bottom: 15px;
@@ -164,78 +164,67 @@ footer {
 }
 
 
-// .footer2 a {
-    //     text-decoration: none;
-    //     color: #161515;
-    // }
-    
-    // .footer2 li {
-        //     display: flex;
-        //     padding-bottom: 15px;
-        // }
-        
-        .fa-facebook {
-            color: blue;
-            font-size: 25px;
-            padding-left: 15px;
-        }
-        
-        .fa-twitter {
-            color: #00acee;
-            font-size: 25px;
-            padding-left: 15px;
-        }
-        
-        .fa-instagram {
-            font-size: 25px;
-            padding-left: 15px;
-        }
-        
-        .fa-phone {
-            padding-left: 15px;
-        }
-        
-        /*PAG LOGIN*/
-        .card {
-            border-radius: 30px !important;
-            margin-bottom: 40px;
-        }
-        
-        /* PSEUDO CLASES */
-        
-        .hover:hover {
-            background-color: rgb(65, 61, 61);
-            border-radius: 30px;
-        }
-        
-        .nav-item:hover {
-            font-size: 18px;
-        }
-        
-        .list-catg a:hover {
-            font-weight: 500;
-        }
-        
-        /* Media queries */
-        
-        @media (max-width: 576px) {
-            #carouselExampleIndicators .carousel-inner img {
-                height: 200px;
-                object-fit: cover;
-                /* Para mantener la relación de aspecto */
-            }
-        }
-        
-        @media (max-width: 576px) {
-            .list-catg {
-                display: none;
-            }
-        }
-        
-        @media (max-width: 576px) {
-            .navbar {
-                background-color: #161515;
-            }
-        }
-        
-        @import "_contacto.scss";
+
+.fa-facebook {
+    color: blue;
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+.fa-twitter {
+    color: #00acee;
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+.fa-instagram {
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+.fa-phone {
+    padding-left: 15px;
+}
+
+
+
+
+/* PSEUDO CLASES */
+
+.hover:hover {
+    background-color: rgb(65, 61, 61);
+    border-radius: 30px;
+}
+
+.nav-item:hover {
+    font-size: 18px;
+}
+
+.list-catg a:hover {
+    font-weight: 900;
+}
+
+/* Media queries */
+
+@media (max-width: 576px) {
+    #carouselExampleIndicators .carousel-inner img {
+        height: 200px;
+        object-fit: cover;
+        /* Para mantener la relación de aspecto */
+    }
+}
+
+@media (max-width: 576px) {
+    .list-catg {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        background-color: #161515;
+    }
+}
+
+@import "_contacto.scss";
+@import "_login.scss"
