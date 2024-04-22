@@ -12,14 +12,15 @@
 }
 
 html {
-  background-color: black;
+  background: #000000;
+  background: linear-gradient(to top, #8c8787, #000000);
 }
 
 body {
   max-width: 1290px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #cbdbdb;
+  background-color: #a9baba;
 }
 
 /* HEADER */
@@ -30,6 +31,7 @@ body {
   height: auto;
   color: white;
   text-align: center;
+  opacity: 1;
 }
 
 .nav-item {
@@ -86,7 +88,7 @@ body {
   margin-top: 15px;
   border-radius: 25px;
   padding-top: 1.5rem;
-  background-color: #cbdbdb;
+  background-color: #a9baba;
 }
 
 .product {
@@ -125,6 +127,7 @@ footer {
   margin-top: 25px;
   background-image: url(../assets/img-footer.jpg);
   background-color: 255, 255, 255, 0.5;
+  border: solid 3px grey;
 }
 
 .footer1 {
