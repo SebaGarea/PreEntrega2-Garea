@@ -110,7 +110,7 @@ body {
     overflow: hidden;
 
     &:hover {
-        transform: scale(1.1)
+        transform: scale(1.1) !;
     }
 }
 
@@ -140,10 +140,10 @@ body {
 }
 
 
+
 /* FOOTER */
 
 footer {
-
     margin-top: 25px;
     background-image: url(../assets/img-footer.jpg);
     background-color: (255, 255, 255, 0.5);
@@ -213,6 +213,8 @@ footer {
     font-weight: 900;
 }
 
+
+
 /* Media queries */
 
 @media (max-width: 576px) {
@@ -236,4 +238,4 @@ footer {
 }
 
 @import "_contacto.scss";
-@import "_login.scss"
+@import "_login.scss";
