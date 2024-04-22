@@ -43,10 +43,6 @@ body {
   height: auto;
 }
 
-.img-shadow {
-  box-shadow: 0 4px 6px rgba(206, 190, 190, 0.582), 0 1px 3px rgba(187, 177, 177, 0.08);
-}
-
 .form-control::-moz-placeholder {
   color: #999;
   font-style: italic;
