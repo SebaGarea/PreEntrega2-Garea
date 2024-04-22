@@ -47,7 +47,7 @@ body {
     height: auto;
     color: white;
     text-align: center;
-    opacity:1;
+    opacity: 1;
 }
 
 .nav-item {
@@ -104,9 +104,14 @@ body {
 }
 
 .product {
-    margin: 5px;
+    margin: 10px;
     border-radius: 50px;
     max-height: 250px;
+    overflow: hidden;
+
+    &:hover {
+        transform: scale(1.1)
+    }
 }
 
 .list-catg {
