@@ -7,11 +7,13 @@
 
 /*COLORES*/
 $color-bck-body: #cbdbdb;
-$color-catg:  rgb(10, 14, 70);
+$color-catg: rgb(10, 14, 70);
 
 /*FUENTES*/
-$font1:"Roboto Condensed", sans-serif;
-$font2:"Abel", sans-serif;
+$font1:"Roboto Condensed",
+sans-serif;
+$font2:"Abel",
+sans-serif;
 
 
 
@@ -108,7 +110,7 @@ body {
     height: max-content;
 
     a {
-        color:$color-catg;
+        color: $color-catg;
         height: 1.5rem !important;
         padding: 20px;
         font-weight: 500;
@@ -127,36 +129,11 @@ body {
     margin-top: 15px;
 }
 
-/* Estilos PAG CONTACTO */
-
-.redes-contact ul li {
-    margin-top: 25px;
-    padding: 20px;
-}
-
-.form-contacto {
-    margin-bottom: 20px;
-
-    form {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-.form-group {
-    margin-bottom: 1rem;
-    /* Espacio entre cada campo de formulario */
-}
-
-label {
-    margin-bottom: 0.5rem;
-    /* Espacio entre la etiqueta y el campo de entrada */
-}
 
 /* FOOTER */
 
 footer {
-
+    
     margin-top: 25px;
     background-image: url(../assets/img-footer.jpg);
     background-color: (255, 255, 255, 0.5);
@@ -179,7 +156,7 @@ footer {
     color: #161515;
     font-size: 20px;
     font-weight: bold;
-
+    
     li {
         display: flex;
         padding-bottom: 15px;
@@ -188,75 +165,77 @@ footer {
 
 
 // .footer2 a {
-//     text-decoration: none;
-//     color: #161515;
-// }
-
-// .footer2 li {
-//     display: flex;
-//     padding-bottom: 15px;
-// }
-
-.fa-facebook {
-    color: blue;
-    font-size: 25px;
-    padding-left: 15px;
-}
-
-.fa-twitter {
-    color: #00acee;
-    font-size: 25px;
-    padding-left: 15px;
-}
-
-.fa-instagram {
-    font-size: 25px;
-    padding-left: 15px;
-}
-
-.fa-phone {
-    padding-left: 15px;
-}
-
-/*PAG LOGIN*/
-.card {
-    border-radius: 30px !important;
-    margin-bottom: 40px;
-}
-
-/* PSEUDO CLASES */
-
-.hover:hover {
-    background-color: rgb(65, 61, 61);
-    border-radius: 30px;
-}
-
-.nav-item:hover {
-    font-size: 18px;
-}
-
-.list-catg a:hover {
-    font-weight: 500;
-}
-
-/* Media queries */
-
-@media (max-width: 576px) {
-    #carouselExampleIndicators .carousel-inner img {
-        height: 200px;
-        object-fit: cover;
-        /* Para mantener la relación de aspecto */
-    }
-}
-
-@media (max-width: 576px) {
-    .list-catg {
-        display: none;
-    }
-}
-
-@media (max-width: 576px) {
-    .navbar {
-        background-color: #161515;
-    }
-}
+    //     text-decoration: none;
+    //     color: #161515;
+    // }
+    
+    // .footer2 li {
+        //     display: flex;
+        //     padding-bottom: 15px;
+        // }
+        
+        .fa-facebook {
+            color: blue;
+            font-size: 25px;
+            padding-left: 15px;
+        }
+        
+        .fa-twitter {
+            color: #00acee;
+            font-size: 25px;
+            padding-left: 15px;
+        }
+        
+        .fa-instagram {
+            font-size: 25px;
+            padding-left: 15px;
+        }
+        
+        .fa-phone {
+            padding-left: 15px;
+        }
+        
+        /*PAG LOGIN*/
+        .card {
+            border-radius: 30px !important;
+            margin-bottom: 40px;
+        }
+        
+        /* PSEUDO CLASES */
+        
+        .hover:hover {
+            background-color: rgb(65, 61, 61);
+            border-radius: 30px;
+        }
+        
+        .nav-item:hover {
+            font-size: 18px;
+        }
+        
+        .list-catg a:hover {
+            font-weight: 500;
+        }
+        
+        /* Media queries */
+        
+        @media (max-width: 576px) {
+            #carouselExampleIndicators .carousel-inner img {
+                height: 200px;
+                object-fit: cover;
+                /* Para mantener la relación de aspecto */
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .list-catg {
+                display: none;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .navbar {
+                background-color: #161515;
+            }
+        }
+        
+        @import "_contacto.scss";

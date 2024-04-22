@@ -120,30 +120,6 @@ body {
   margin-top: 15px;
 }
 
-/* Estilos PAG CONTACTO */
-.redes-contact ul li {
-  margin-top: 25px;
-  padding: 20px;
-}
-
-.form-contacto {
-  margin-bottom: 20px;
-}
-.form-contacto form {
-  display: flex;
-  flex-direction: column;
-}
-
-.form-group {
-  margin-bottom: 1rem;
-  /* Espacio entre cada campo de formulario */
-}
-
-label {
-  margin-bottom: 0.5rem;
-  /* Espacio entre la etiqueta y el campo de entrada */
-}
-
 /* FOOTER */
 footer {
   margin-top: 25px;
@@ -233,4 +209,26 @@ footer {
   .navbar {
     background-color: #161515;
   }
+}
+.redes-contact ul li {
+  margin-top: 25px;
+  padding: 20px;
+}
+
+.form-contacto {
+  margin-bottom: 20px;
+}
+.form-contacto form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  /* Espacio entre cada campo de formulario */
+}
+
+label {
+  margin-bottom: 0.5rem;
+  /* Espacio entre la etiqueta y el campo de entrada */
 }/*# sourceMappingURL=style.css.map */
