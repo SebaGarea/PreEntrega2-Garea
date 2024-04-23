@@ -110,7 +110,7 @@ body {
     overflow: hidden;
 
     &:hover {
-        transform: scale(1.1) !;
+        transform: scale(1.1);
     }
 }
 
@@ -139,6 +139,9 @@ body {
     margin-top: 15px;
 }
 
+.carru-baner:hover {
+    scale:scale(1.1) !important;
+}
 
 
 /* FOOTER */

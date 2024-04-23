@@ -98,7 +98,7 @@ body {
   overflow: hidden;
 }
 .product:hover {
-  transform: scale(1.1) !important;
+  transform: scale(1.1);
 }
 
 .list-catg {
@@ -126,13 +126,8 @@ body {
   margin-top: 15px;
 }
 
-.btn-gradient {
-  background-image: linear-gradient(to right, #ff4e50, #f9d423);
-  color: white;
-  border: none;
-}
-.btn-gradient:hover {
-  background-image: linear-gradient(to right, blue, red);
+.carru-baner:hover {
+  scale: scale(1.1) !important;
 }
 
 /* FOOTER */
