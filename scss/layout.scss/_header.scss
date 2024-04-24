@@ -1,0 +1,53 @@
+.navbar {
+    background-image: url("../assets/Fondo-NAV1290.jpg");
+    background-size: contain;
+    background-position: center;
+    height: auto;
+    color: white;
+    text-align: center;
+    opacity: 1;
+}
+
+.nav-item {
+    padding: 2px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar-brand img {
+    max-width: 70px;
+    height: auto;
+}
+
+
+.form-control::placeholder {
+    color: #999;
+    font-style: italic;
+    text-align: center;
+}
+
+.logoPrincipal {
+    height: 300px;
+}
+
+.subNav {
+    margin: 1em;
+}
+
+.navsub {
+    background-image: url("../assets/nav\ amdera.jpg");
+    background-size: contain;
+    background-position: center;
+}
+
+.dropdown-menu-custom {
+    width: 300px;
+    /* Ancho del menú desplegable */
+    text-align: center;
+}
+
+.carousel-inner .carousel-item img {
+    border-radius: 20px;
+}
