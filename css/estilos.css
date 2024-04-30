@@ -1,0 +1,233 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+* {
+  margin: 0px;
+  padding: 0;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+html {
+  background: #000000;
+  background: -webkit-linear-gradient(to bottom, #434343, #000000);
+  background: linear-gradient(to top, #8c8787, #000000);
+}
+
+body {
+  max-width: 1290px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+/* PSEUDO CLASES */
+.hover:hover {
+  background-color: rgb(65, 61, 61);
+  border-radius: 30px;
+}
+
+.nav-item:hover {
+  font-size: 18px;
+}
+
+.list-catg a:hover {
+  font-weight: 900;
+}
+
+/* Media queries */
+@media (max-width: 576px) {
+  #carouselExampleIndicators .carousel-inner img {
+    height: 200px;
+    object-fit: cover;
+    /* Para mantener la relación de aspecto */
+  }
+}
+@media (max-width: 576px) {
+  .list-catg {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .navbar {
+    background-color: #161515;
+  }
+}
+footer {
+  margin-top: 25px;
+  background-image: url(../assets/img-footer.jpg);
+  border: solid 3px grey;
+  opacity: 0.9;
+}
+
+.footer1 {
+  display: flex;
+  font-size: 15px;
+  justify-content: space-around;
+  padding-top: 15px;
+}
+
+.footer2 h4 {
+  text-decoration: underline;
+  margin-bottom: 15px;
+}
+
+.footer2 a {
+  text-decoration: none;
+  color: #161515;
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer2 a li {
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.fa-facebook {
+  color: blue;
+  font-size: 25px;
+  padding-left: 15px;
+}
+
+.fa-twitter {
+  color: #00acee;
+  font-size: 25px;
+  padding-left: 15px;
+}
+
+.fa-instagram {
+  font-size: 25px;
+  padding-left: 15px;
+}
+
+.fa-phone {
+  padding-left: 15px;
+}
+
+.navbar {
+  background-image: url("../assets/Fondo-NAV1290.jpg");
+  background-size: contain;
+  background-position: center;
+  height: auto;
+  color: white;
+  text-align: center;
+  opacity: 1;
+}
+
+.nav-item {
+  padding: 2px;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.navbar-brand img {
+  max-width: 70px;
+  height: auto;
+}
+
+.form-control::placeholder {
+  color: #999;
+  font-style: italic;
+  text-align: center;
+}
+
+.logoPrincipal {
+  height: 300px;
+}
+
+.subNav {
+  margin: 1em;
+}
+
+.navsub {
+  background-image: url("../assets/nav amdera.jpg");
+  background-size: contain;
+  background-position: center;
+}
+
+.dropdown-menu-custom {
+  width: 300px;
+  /* Ancho del menú desplegable */
+  text-align: center;
+}
+
+.carousel-inner .carousel-item img {
+  border-radius: 20px;
+}
+
+.galeria {
+  margin-top: 15px;
+  padding-top: 1.5rem;
+  background-image: url(../assets/img-footer.jpg);
+}
+
+.product {
+  margin: 10px;
+  border-radius: 30px;
+  max-height: 250px;
+  overflow: hidden;
+  transition: transform 0.3s ease; /* Agregar una transición para suavizar el cambio */
+  /* Agregar una sombra suave */
+  box-shadow: 0 4px 6px rgba(86, 78, 78, 0.1);
+}
+.product:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Cambiar la sombra al hacer hover */
+}
+
+.list-catg {
+  background-color: #dae3e7;
+  border-radius: 40px;
+  height: max-content;
+}
+.list-catg a {
+  color: rgb(10, 14, 70);
+  height: 1.5rem !important;
+  padding: 20px;
+  font-weight: 500;
+}
+.list-catg h6 {
+  padding: 10px;
+  align-self: center;
+  text-decoration: underline dotted 0.2px;
+}
+
+.ofert-botom {
+  border-bottom: 1px dotted gray;
+  border-top: 1px dotted gray;
+  margin-top: 15px;
+}
+
+.carru-baner:hover {
+  scale: scale(1.1) !important;
+}
+
+.redes-contact li {
+  margin: 15px;
+  padding: 15px;
+}
+
+.form-contacto {
+  margin-bottom: 20px;
+}
+.form-contacto form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  /* Espacio entre cada campo de formulario */
+}
+
+label {
+  margin-bottom: 0.5rem;
+  /* Espacio entre la etiqueta y el campo de entrada */
+}
+
+.card {
+  border-radius: 30px !important;
+  margin-bottom: 40px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
