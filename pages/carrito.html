@@ -11,12 +11,13 @@
 
     <link rel="stylesheet" href="../css/estilos.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Contantanos, Contacto, Mesas, Madera, Guayubira, Maciza, Industrial, Muebles, Mobiliario, Comercio, Herreria">
+    <meta name="keywords"
+        content="Registro, Log In, Mesas, Madera, Guayubira, Maciza, Industrial, Muebles, Mobiliario, Comercio, Herreria">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>El Portal Contacto</title>
+    <title>Carrito de Compras</title>
 </head>
 
 <body>
@@ -47,14 +48,13 @@
 
                     <ul class="navbar-nav align-self-start">
                         <li class="nav-item p-2 ">
-                            <a class="nav-link " href="../pages/register.html"><i
-                                    class="fa-solid fa-user-plus"></i></i></a>
+                            <a class="nav-link " href="./register.html"><i class="fa-solid fa-user-plus"></i></i></a>
                         </li>
                         <li class="nav-item p-2">
-                            <a class="nav-link " href="../pages/login.html">Iniciar Sesion</a>
+                            <a class="nav-link " href="./login.html">Iniciar Sesion</a>
                         </li>
                         <li class="nav-item p-2">
-                            <a class="nav-link" href="../pages/carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a class="nav-link" href="javascript:void(0)"><i class="fa-solid fa-cart-shopping"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -83,7 +83,7 @@
                     <li><a class="dropdown-item" href="#">Vinotecas</a></li>
                 </ul>
 
-                <a href="#"
+                <a href="./contacto.html"
                     class="hover btn text-light col-sm-4 col-xs-12 justify-content-center dropdown-button">
                     Contacto
                 </a>
@@ -91,43 +91,60 @@
         </nav>
         <!-- Navbar Dropdown FIN-->
     </header>
-
-    <main class="container ">
+    <div class="container mt-5">
         <div class="row">
-            <div class=" col-md-6 footer2 ">
-                <ul class=" redes-contact justify-content-center" >
-                    <li><i class="fas fa-phone"></i><a href="#">1140833655/1161855209</a></li>
-                    <li><i class="fab fa-facebook"></i><a href="#">Facebook</a></li>
-                    <li><i class="fab fa-twitter"></i><a href="#">Twitter</a></li>
-                    <li><i class="fab fa-instagram" style="color: #250f67;"></i><a href="https://www.instagram.com/el.portal.herreria">Instagram</a></li>
-                </ul>
+            <div class="col-md-8">
+                <h2>Carrito de Compras</h2>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Producto</th>
+                            <th scope="col">Precio</th>
+                            <th scope="col">Cantidad</th>
+                            <th scope="col">Total</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Aquí se agregarían las filas de productos dinámicamente -->
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mesa Guayubira</td>
+                            <td>$10.00</td>
+                            <td>2</td>
+                            <td>$20.00</td>
+                            <td><button class="btn btn-danger"><i class="fas fa-trash"></i></button></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-            <div class="form-contacto col-md-6 card ">
-                <div class="d-flex justify-content-center">
-                    <form action="#" method="post">
-                        <h2>Formulario de Contacto</h2>
-                        <div class="mb-3">
-                            <label for="nombre" class="form-label">Nombre:</label>
-                            <input type="text" id="nombre" name="nombre" class="form-control" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email:</label>
-                            <input type="email" id="email" name="email" class="form-control" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="mensaje" class="form-label">Mensaje:</label>
-                            <textarea id="mensaje" name="mensaje" rows="4" class="form-control" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-info rounded-pill">Enviar</button>
-                    </form>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Resumen del Pedido</h4>
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Subtotal:
+                                <span>$20.00</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Envío:
+                                <span>$5.00</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Total:
+                                <span>$25.00</span>
+                            </li>
+                        </ul>
+                        <button class="btn btn-info rounded-pill mt-3">Continuar con el Pago</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </main>
-    
-    
+    </div>
 
-    <footer>
+   <footer>
         <div class="footer1">
 
             <div class="footer2">
@@ -158,6 +175,7 @@
 
         </div>
     </footer>
+    
     <!-- INICIO BOOTSTRAP 5.1 -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
@@ -166,6 +184,7 @@
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
     </script>
     <!-- FINAL BOOTSTRAP 5.1 -->
+
 </body>
 
 </html>

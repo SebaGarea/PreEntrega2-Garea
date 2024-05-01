@@ -208,7 +208,8 @@ footer {
 }
 
 .form-contacto {
-  margin-bottom: 20px;
+  padding: 11px;
+  margin-top: 20px;
 }
 .form-contacto form {
   display: flex;
