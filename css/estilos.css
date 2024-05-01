@@ -204,12 +204,15 @@ footer {
 
 .redes-contact li {
   margin: 15px;
-  padding: 15px;
+  padding: 5px;
 }
 
 .form-contacto {
-  padding: 11px;
+  padding: 1rem 1rem;
   margin-top: 20px;
+  max-width: fit-content;
+  border: solid 1px rgb(185, 182, 182);
+  border-radius: 20px;
 }
 .form-contacto form {
   display: flex;
