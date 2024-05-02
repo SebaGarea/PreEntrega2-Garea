@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 * {
   margin: 0px;
   padding: 0;
@@ -7,13 +8,11 @@
 }
 
 html {
-  background: #000000;
-  background: -webkit-linear-gradient(to bottom, #434343, #000000);
   background: linear-gradient(to top, #8c8787, #000000);
 }
 
 body {
-  max-width: 1290px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
@@ -232,6 +231,20 @@ label {
 .card {
   border-radius: 30px !important;
   margin-bottom: 40px;
+}
+
+.about-container {
+  display: inline-block;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.texto {
+  font-family: "Handlee", cursive;
+  margin: 20px;
+}
+.texto:hover {
+  font-size: 17px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

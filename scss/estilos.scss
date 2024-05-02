@@ -8,13 +8,11 @@
 
 
 html {
-    background: #000000;
-    background: -webkit-linear-gradient(to bottom, #434343, #000000);
     background: linear-gradient(to top, #8c8787, #000000);
 }
 
 body {
-    max-width: 1290px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     background-color: white;
@@ -69,4 +67,5 @@ body {
 
 @import "views/contacto";
 @import "views/login";
+@import "views/nosotros";
 

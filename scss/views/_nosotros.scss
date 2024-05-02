@@ -1,0 +1,17 @@
+
+
+.about-container {
+    display: inline-block; // Convierte el contenedor en un elemento en línea
+    overflow: hidden; // Oculta cualquier parte del texto que se salga del contenedor
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.texto {
+    font-family: $font2;
+    margin: 20px; // Elimina el margen predeterminado del texto
+
+    &:hover {
+        font-size: 17px;
+    }
+}
