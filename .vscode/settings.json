@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/pages/nosotros.html"
+    "livePreview.defaultPreviewPath": "/pages/nosotros.html",
+    "CodeGPT.query.language": "Spanish"
 }

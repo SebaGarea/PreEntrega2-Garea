@@ -165,13 +165,12 @@ footer {
   border-radius: 30px;
   max-height: 250px;
   overflow: hidden;
-  transition: transform 0.3s ease; /* Agregar una transición para suavizar el cambio */
-  /* Agregar una sombra suave */
+  transition: transform 0.4s ease;
   box-shadow: 0 4px 6px rgba(86, 78, 78, 0.1);
 }
 .product:hover {
   transform: scale(1.1);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Cambiar la sombra al hacer hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
 .list-catg {
