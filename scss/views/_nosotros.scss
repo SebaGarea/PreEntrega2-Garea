@@ -4,8 +4,8 @@
     display: inline-block; // Convierte el contenedor en un elemento en línea
     overflow: hidden; // Oculta cualquier parte del texto que se salga del contenedor
     transition: transform 0.3s ease-in-out;
-
-}
+    margin: .625rem;
+    }
 
 .texto {
     font-family: $font2;

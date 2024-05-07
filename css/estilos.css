@@ -236,6 +236,7 @@ label {
   display: inline-block;
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
+  margin: 0.625rem;
 }
 
 .texto {
