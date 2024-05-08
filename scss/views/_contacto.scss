@@ -1,6 +1,6 @@
 .redes-contact li {
-    margin: 15px;
-    padding: 5px;
+    margin: 1.25rem;
+    padding: .625rem;
 }
 
 .form-contacto {
@@ -8,12 +8,7 @@
     margin-top: 20px;
     max-width:fit-content;
     border: solid 1px rgb(185, 182, 182);
-    border-radius: 20px;
-
-    form {
-        display: flex;
-        flex-direction: column;
-    }
+    border-radius: 1.25rem;
 }
 
 .form-group {
@@ -24,4 +19,12 @@
 label {
     margin-bottom: 0.5rem;
     /* Espacio entre la etiqueta y el campo de entrada */
+}
+
+#map-9cd199b9cc5410cd3b1ad21cab2e54d3{
+    margin-top: .9375rem;
+}
+
+.btn-contact{
+    width: 100%;
 }
